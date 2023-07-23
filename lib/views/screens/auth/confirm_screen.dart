@@ -30,6 +30,12 @@ class _ConfirmScreenState extends State<ConfirmScreen> {
   );
 
   @override
+  void dispose() {
+    super.dispose();
+    controller.dispose();
+  }
+
+  @override
   void initState() {
     super.initState();
     setState(() {

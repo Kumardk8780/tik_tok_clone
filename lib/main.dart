@@ -3,7 +3,6 @@ import 'package:flutter/material.dart';
 import 'package:get/get.dart';
 import 'package:tik_tok_clone/controllers/auth_controller.dart';
 import 'package:tik_tok_clone/views/screens/auth/login_screen.dart';
-import 'package:tik_tok_clone/views/screens/auth/signup_screen.dart';
 
 import 'constants.dart';
 
